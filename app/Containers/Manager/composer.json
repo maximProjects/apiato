@@ -1,0 +1,6 @@
+{
+  "name": "apiato/manager",
+  "description": "Manager Container for apiato.",
+  "require": {
+  }
+}

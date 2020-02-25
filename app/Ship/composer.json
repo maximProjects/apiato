@@ -1,0 +1,20 @@
+{
+  "require": {
+    "apiato/core": "dev-bug-fix",
+    "barryvdh/laravel-debugbar": "3.*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/vunnu/core"
+    }
+  ],
+  "require-dev": {
+    "barryvdh/laravel-ide-helper": "2.6.*"
+  },
+  "autoload": {
+    "files": [
+      "Helpers/mix.php"
+    ]
+  }
+}

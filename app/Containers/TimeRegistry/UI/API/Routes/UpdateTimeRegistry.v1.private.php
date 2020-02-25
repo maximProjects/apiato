@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @apiGroup           TimeRegistry
+ * @apiName            updateTimeRegistry
+ *
+ * @api                {PATCH} /v1/time_registry/:id Endpoint title here..
+ * @apiDescription     Endpoint description here..
+ *
+ * @apiVersion         1.0.0
+ * @apiPermission      none
+ *
+ * @apiParam           {String}  parameters here..
+ *
+ * @apiSuccessExample  {json}  Success-Response:
+ * HTTP/1.1 200 OK
+{
+  // Insert the response of the request here...
+}
+ */
+
+/** @var Route $router */
+$router->patch('time-registry/{id}', [
+    'as' => 'api_timeregistry_update_time_registry',
+    'uses'  => 'Controller@updateTimeRegistry',
+    'middleware' => [
+      'auth:api',
+    ],
+]);

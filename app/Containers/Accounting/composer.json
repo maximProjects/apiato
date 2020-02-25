@@ -1,0 +1,6 @@
+{
+  "name": "apiato/accounting",
+  "description": "Accounting Container for apiato.",
+  "require": {
+  }
+}
